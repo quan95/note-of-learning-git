@@ -17,3 +17,5 @@ $ git checkout <branch>  (将指针转换到branch分支上面)
 $ git branch <new-branch>  (创建一个新的分支)
 $ git branch -d <branch>  (删除分支)
 
+5.重命名文件
+$ git mv oldFile newFile
