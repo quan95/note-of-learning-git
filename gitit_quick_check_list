@@ -6,4 +6,14 @@ $ git init  （创建一个新的本地仓库）
 $ git status  (查看文件状态)
 $ git diff (查看暂存和为暂存文件之间的不同)
 $ git add (添加文件到跟踪系统)
-$ git 
+$ git commit -m" "  （将文件快照保存到仓库）
+
+3.快照查询
+$ git log  (查询快照提交的历史)
+
+4.分支和标签
+$ git branch -av  (查询所有存在的分支)
+$ git checkout <branch>  (将指针转换到branch分支上面)
+$ git branch <new-branch>  (创建一个新的分支)
+$ git branch -d <branch>  (删除分支)
+
