@@ -6,8 +6,9 @@ $ git init  （创建一个新的本地仓库）
 $ git status  (查看文件状态)
 $ git diff (查看暂存和为暂存文件之间的不同)
 $ git add (添加文件到跟踪系统)
+$ git add . (将所有的改变添加到暂存区)
 $ git commit -m" "  （将文件快照保存到仓库）
-
+$ git commit -a (将所有的改变快照保存到仓库)
 3.快照查询
 $ git log  (查询快照提交的历史)
 
@@ -19,3 +20,29 @@ $ git branch -d <branch>  (删除分支)
 
 5.重命名文件
 $ git mv oldFile newFile
+
+6.远程仓库相关
+$ git remote -v (显示git中保存的远程仓库)
+$ git remote show <remote> (显示远程仓库的一些信息)
+$ git remote add <shortname> <url> (添加新的远程仓库，并
+给它起个名字)
+$ git fetch <remote> (从远程仓库中下载变化，但是不合并到
+HEAD中)
+$ git pull <remote> <branch> (从远程仓库下载变化，并且
+合并到HEAD中)
+$ git push <remote> <branch> (将本地的变化推送到远程仓库中)
+$ git push --tags <推送tags>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
