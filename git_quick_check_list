@@ -17,6 +17,9 @@ $ git branch -av  (查询所有存在的分支)
 $ git checkout <branch>  (将指针转换到branch分支上面)
 $ git branch <new-branch>  (创建一个新的分支)
 $ git branch -d <branch>  (删除分支)
+$ git branch -v (显示所有分支和最新的一次提交)
+$ git branch --merge (显示哪些分支已经合并，便于删除)
+$ git branch --no-merge (显示哪些分支未合并，便于合并)
 
 5.重命名文件
 $ git mv oldFile newFile
