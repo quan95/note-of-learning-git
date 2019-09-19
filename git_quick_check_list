@@ -33,6 +33,9 @@ $ git pull <remote> <branch> (从远程仓库下载变化，并且
 $ git push <remote> <branch> (将本地的变化推送到远程仓库中)
 $ git push --tags <推送tags>
 
+7.分支相关
+$ git merge <branch>
+
 
 
 
